@@ -488,7 +488,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 45PMFN3MX9;
 				INFOPLIST_FILE = Gomoku/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -508,7 +508,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 45PMFN3MX9;
 				INFOPLIST_FILE = Gomoku/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

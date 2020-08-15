@@ -8,7 +8,8 @@
 
 #import "GGHostListController.h"
 #import "GGPacket.h"
-@import CocoaAsyncSocket; 
+
+@import CocoaAsyncSocket;
 
 @interface GGHostListController () <NSNetServiceDelegate, NSNetServiceBrowserDelegate, GCDAsyncSocketDelegate>
 

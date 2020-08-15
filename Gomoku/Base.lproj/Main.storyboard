@@ -173,39 +173,36 @@
                                     <constraint firstAttribute="width" secondItem="5W6-ck-WiD" secondAttribute="height" multiplier="1:1" id="lQl-j0-OKh"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Sr-lK-4Yy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Sr-lK-4Yy">
                                 <rect key="frame" x="62.5" y="556" width="50" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="Mui-og-tTM"/>
                                     <constraint firstAttribute="width" constant="50" id="jYU-d4-oLm"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="reset"/>
                                 <state key="disabled" title="重开"/>
                                 <connections>
                                     <action selector="btnReset_TouchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Apm-gF-Sph"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygw-EM-FBB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygw-EM-FBB">
                                 <rect key="frame" x="162.5" y="556" width="50" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="SDq-aZ-5dL"/>
                                     <constraint firstAttribute="width" constant="50" id="cJz-jv-AfE"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="undo"/>
                                 <state key="disabled" title="悔棋"/>
                                 <connections>
                                     <action selector="btnUndo_TouchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IT7-CC-6TE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swV-Ud-EZf" userLabel="Btn Back">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swV-Ud-EZf" userLabel="Btn Back">
                                 <rect key="frame" x="262.5" y="556" width="50" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="9PP-Fn-VfS"/>
                                     <constraint firstAttribute="width" constant="50" id="Pf1-2i-uRj"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="back"/>
                                 <connections>
                                     <action selector="btnBack_TouchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zx6-f3-7f5"/>
