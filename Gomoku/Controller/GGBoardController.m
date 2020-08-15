@@ -5,8 +5,8 @@
 
 @import CocoaAsyncSocket;
 
-NSString * const INFO_YOUR_TURN = @"您的回合";
-NSString * const INFO_OPPONENT_TURN = @"对方回合";
+NSString * const INFO_YOUR_TURN = @"Your round";
+NSString * const INFO_OPPONENT_TURN = @"the other round";
 
 @interface GGBoardController () <GCDAsyncSocketDelegate, GGHostListControllerDelegate> {
     GGBoard *board;
@@ -214,15 +214,15 @@ NSString * const INFO_OPPONENT_TURN = @"对方回合";
 - (void)handleWin {
     NSString *alertTitle;
     if (playerType == GGPlayerTypeBlack) {
-        alertTitle = @"黑方获胜!";
+        alertTitle = @"Blue win!";
     } else {
-        alertTitle = @"白方获胜!";
+        alertTitle = @"Yellow win!";
     }
     
     [self dismissAlertControllers];
     
     self.winAlertController = [UIAlertController alertControllerWithTitle:alertTitle message:@"" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *action = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:nil];
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDefault handler:nil];
     [_winAlertController addAction:action];
     [self presentViewController:_winAlertController animated:YES completion:nil];
     

@@ -1,8 +1,8 @@
 {
   "images" : [
     {
+      "filename" : "Icon-App-72@2x.png",
       "idiom" : "universal",
-      "filename" : "1280x1280bb.jpg",
       "scale" : "1x"
     },
     {
@@ -15,7 +15,7 @@
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

@@ -1,12 +1,20 @@
 PODS:
   - CocoaAsyncSocket (7.6.1)
+  - LookinServer (1.0.0)
 
 DEPENDENCIES:
   - CocoaAsyncSocket
+  - LookinServer
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - LookinServer
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
 
-PODFILE CHECKSUM: e1f8eefbe4563701020bf6beb17ca73c07429f92
+PODFILE CHECKSUM: 4e9f2ef2648a1d609dbb713827bffec98905252f
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.9.3
